@@ -5,6 +5,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+
+* Added support for a `DocStringsCollapsed` key in every page's `@meta` block. Setting `DocStringsCollapsed = true` for a particular page essentially clicks the "Collapse all docstrings" in the navigation bar after the page loads, collapsing all docstrings on that page. This can make API documentation pages much more readable. ([#2282], [#2394])
+
 ### Changed
 
 * The search in the HTML output now prioritizes prefix matches. ([#2203], [#2375])
@@ -1755,6 +1759,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#2279]: https://github.com/JuliaDocs/Documenter.jl/issues/2279
 [#2280]: https://github.com/JuliaDocs/Documenter.jl/issues/2280
 [#2281]: https://github.com/JuliaDocs/Documenter.jl/issues/2281
+[#2282]: https://github.com/JuliaDocs/Documenter.jl/issues/2282
 [#2285]: https://github.com/JuliaDocs/Documenter.jl/issues/2285
 [#2288]: https://github.com/JuliaDocs/Documenter.jl/issues/2288
 [#2293]: https://github.com/JuliaDocs/Documenter.jl/issues/2293
@@ -1776,12 +1781,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#2348]: https://github.com/JuliaDocs/Documenter.jl/issues/2348
 [#2364]: https://github.com/JuliaDocs/Documenter.jl/issues/2364
 [#2365]: https://github.com/JuliaDocs/Documenter.jl/issues/2365
-<<<<<<< HEAD
+[#2394]: https://github.com/JuliaDocs/Documenter.jl/pull/2394
 [#2406]: https://github.com/JuliaDocs/Documenter.jl/issues/2406
 [#2408]: https://github.com/JuliaDocs/Documenter.jl/issues/2408
-=======
 [#2375]: https://github.com/JuliaDocs/Documenter.jl/issues/2375
->>>>>>> origin/master
 [JuliaLang/julia#36953]: https://github.com/JuliaLang/julia/issues/36953
 [JuliaLang/julia#38054]: https://github.com/JuliaLang/julia/issues/38054
 [JuliaLang/julia#39841]: https://github.com/JuliaLang/julia/issues/39841
